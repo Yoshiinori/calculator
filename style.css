@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(167, 211, 255)
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  box-shadow: 0 0 1rem 0.1rem;
+}
+
+button {
+  color: white;
+  background: rgb(56, 56, 56);
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 20rem;
+  height: 7rem;
+  text-align: right;
+  font-size: 3rem;
+  border: none;
+}
+
+
+.orange {
+  background: rgb(239, 88, 0)
+}
+
+.green {
+  background: rgb(7, 205, 27)
+}
+
+.pink {
+  background: rgb(255, 50, 108)
+}
+
+button:hover {
+  box-shadow: inset 0 0 0.5rem black;
+}
+
+button:focus {
+  outline: 0;
+}
